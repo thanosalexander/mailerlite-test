@@ -1,0 +1,35 @@
+{
+    "name": "thanosalexander/mailerlite",
+    "description": "A test for mailerlite's job test",
+    "authors": [
+        {
+            "name": "thanosalexander",
+            "email": "thanosalexander@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "illuminate/http": "^8.12",
+        "illuminate/container": "^8.12",
+        "illuminate/routing": "^8.12",
+        "illuminate/events": "^8.12",
+        "illuminate/support": "^8.12",
+        "illuminate/validation": "^8.12",
+        "vlucas/phpdotenv": "^5.2",
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "app"
+        ],
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
